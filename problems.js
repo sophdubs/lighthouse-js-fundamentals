@@ -67,3 +67,9 @@
 // console.log(concat([ 0, 3, 1 ], [ 9, 7, 2 ]), "=?", [ 0, 3, 1, 9, 7, 2 ]);
 // console.log(concat([], [ 9, 7, 2 ]), "=?", [ 9, 7, 2 ]);
 // console.log(concat([ 5, 10 ], []), "=?", [ 5, 10 ]);
+
+// const smartGarbage = function(trash, bins) {
+//   bins[trash] += 1;
+//   return bins;
+// }
+// console.log(smartGarbage('recycling', { waste: 4, recycling: 2, compost: 5 }));
