@@ -59,3 +59,11 @@
 // console.log(lastIndexOf([ 5, 5, 5 ], 5), "=?", 2);
 // console.log(lastIndexOf([], 3), "=?", -1);
 
+// const concat = function(a, b) {
+//   let sol = [...a, ...b];
+//   return sol;
+// }
+// console.log(concat([ 1, 2, 3 ], [ 4, 5, 6 ]), "=?", [ 1, 2, 3, 4, 5, 6 ]);
+// console.log(concat([ 0, 3, 1 ], [ 9, 7, 2 ]), "=?", [ 0, 3, 1, 9, 7, 2 ]);
+// console.log(concat([], [ 9, 7, 2 ]), "=?", [ 9, 7, 2 ]);
+// console.log(concat([ 5, 10 ], []), "=?", [ 5, 10 ]);
