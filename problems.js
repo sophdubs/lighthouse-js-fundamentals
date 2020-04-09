@@ -74,31 +74,64 @@
 // }
 // console.log(smartGarbage('recycling', { waste: 4, recycling: 2, compost: 5 }));
 
-const carPassing = function(cars, speed) {
-  const newCar = {
-    time: Date.now(),
-    speed
-  }
-  cars.push(newCar);
-  return cars;
-}
+// const carPassing = function(cars, speed) {
+//   const newCar = {
+//     time: Date.now(),
+//     speed
+//   }
+//   cars.push(newCar);
+//   return cars;
+// }
 
-const cars = [
-  {
-    time: 1568329654807,
-    speed: 40,
-  },
-  {
-    time: 1568329821632,
-    speed: 42,
-  },
-  {
-    time: 1568331115463,
-    speed: 35
-  }
-]
+// const cars = [
+//   {
+//     time: 1568329654807,
+//     speed: 40,
+//   },
+//   {
+//     time: 1568329821632,
+//     speed: 42,
+//   },
+//   {
+//     time: 1568331115463,
+//     speed: 35
+//   }
+// ]
 
-const speed = 38
+// const speed = 38
 
-carPassing(cars, speed);
-console.log(cars);
+// carPassing(cars, speed);
+// console.log(cars);
+
+// const judgeVegetable = function(vegetables, metric) {
+//   let maxVal = 0;
+//   let sub = '';
+//   for (let veg of veggies) {
+//     if (veg[metric] > maxVal) {
+//       maxVal = veg[metric];
+//       sub = veg.submitter;
+//     }
+//   }
+//   return sub;
+// }
+
+// const vegetables = [
+//   {
+//     submitter: 'Old Man Franklin',
+//     redness: 10,
+//     plumpness: 5
+//   },
+//   {
+//     submitter: 'Sally Tomato-Grower',
+//     redness: 2,
+//     plumpness: 8
+//   },
+//   {
+//     submitter: 'Hamid Hamidson',
+//     redness: 4,
+//     plumpness: 3
+//   }
+// ];
+
+// const metric = 'redness'
+// console.log(judgeVegetable(vegetables, metric));
